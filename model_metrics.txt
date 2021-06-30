@@ -1,0 +1,24 @@
+The linear model didn't have any hyperparameters to tune.
+The linear model for Bid had an average MSE of 0.01034, and
+the linear model for Ask had an average MSE of 0.01032
+across 10-fold training and testing.
+
+The ARIMA models for both Bid and Ask had their order tuned to (1, 0, 0).
+The Bid model had: 
+a const coef of 0.8067
+an ar.L1 coef of 0.9915
+a sigma2 coef of 0.0095
+
+The Ask model had:
+a const coef of 0.7077
+an ar.L1 coef of 0.9915
+a sigma2 coef of 0.0095
+
+The Bid linear model had a final MSE score of 0.00863
+The Ask linear model had a final MSE score of 0.00864
+The Bid ARIMA model had a final MSE score of 0.00951
+the Ask ARIMA model had a final MSE score of 0.00953
+
+
+
+
